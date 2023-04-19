@@ -1,0 +1,85 @@
+%++++++++++++++++++++++++++++++++++++++++
+% Don't modify this section unless you know what you're doing!
+\documentclass[letterpaper,12pt]{article}
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{amsmath}  % improve math presentation
+\usepackage{graphicx} % takes care of graphic including machinery
+\usepackage{float} % from Jason: better figure control
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+%\usepackage{cite} % takes care of citations
+\usepackage{subcaption} % from Jason: subfigures
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,     % color of file links
+	urlcolor=blue         
+}
+
+%++++++++++++++++++++++++++++++++++++++++
+
+\def \N {\mathbb{N}}
+
+\begin{document}
+
+\section{Introduction}
+\begin{enumerate}
+    \item GCE models
+    \begin{enumerate}
+        \item Basic ingredients:(SFR, inflow/outflow, yield, SN rate, etc)
+        \item Types of GCE models: One-zone: OMEGA; Chemodynamcal models
+    \end{enumerate}
+
+    Simple GCE model is enough. Stellar yields make the main differences. (Côté et al. (2017))
+    
+    \item Evolution of massive stars
+        \begin{enumerate}
+            \item Different burning phase
+            \item supernovae
+        \end{enumerate}
+
+    Supernovae is the main production site of Si-29 and Si-30.
+    
+    \item Presolar Grains
+        \begin{enumerate}
+            \item Origins of presolar grains: SiC, graphite
+            \item types of SiC grains
+            \item Silicon isotopic ratio in M grains
+            \begin{enumerate}
+                \item Enrichment in secondary isotopes and the distribution: heterogeneous GCE 
+                \item Slope
+            \end{enumerate}
+        \end{enumerate}
+
+    C grains from supernovae. M grains contains GCE signature. 
+
+    \item Related works
+    \begin{enumerate}
+        \item Timmes \& Clayton (1996)
+        \item Hoppe et. al. (2009)
+    \end{enumerate}
+    Changing the nuclear reaction rate might solve the slope problem.
+\end{enumerate}
+
+\section{Method}
+
+\begin{enumerate}
+    \item Silicon production regions and reactions in supernovae: NUGRID models w/ different 
+    \item Nucleosynthesis simulation: ppn
+    \item Yield Integration 
+    \item GCE simulation: OMEGA+
+    \item Monte Carlos setup
+\end{enumerate}
+
+\section{Result}
+\begin{enumerate}
+    \item Trajectory results: compared with C grains 
+    \item Integrated yields 
+    \item MC result, comparison with M grains
+\end{enumerate}
+
+\section{Conclusion}
+\end{document}
