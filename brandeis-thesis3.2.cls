@@ -27,7 +27,7 @@
 \RequirePackage[immediate]{silence}
 \WarningFilter{latex}{Command} % silence the warning
 \RequirePackage{sectsty}
-\RequirePackage[margin=1in]{geometry}
+\RequirePackage[margin=1in, 12pt]{geometry}
 \RequirePackage{setspace}
 \RequirePackage{titlesec}
 \RequirePackage[utf8]{inputenc}
